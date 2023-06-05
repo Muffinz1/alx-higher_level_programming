@@ -7,17 +7,17 @@
 */
 int check_cycle(listint_t *list)
 {
-	listint_t *clean = list;
-	listint_t *infected = list;
+	listint_t *slow = list;
+	listint_t *fast = list;
 
 	if (!list)
 		return (0);
 
-	while (clean && infected && clean->next)
+	while (fast && slow && fast->next)
 	{
-		infected = infected->next;
-		clean = clean->next->next;
-		if (infected == clean)
+		slow = slow->next;
+		fast = fast->next->next;
+		if (slow == fast)
 			return (1);
 	}
 	return (0);
