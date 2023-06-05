@@ -10,14 +10,14 @@ int check_cycle(listint_t *list)
 	listint_t *clean = list;
 	listint_t *infected = list;
 
-	if (list == 0)
+	if (!list)
 		return (0);
 
 	while (clean && infected && clean->next)
 	{
 		infected = infected->next;
 		clean = clean->next->next;
-		if (clean == infected)
+		if (infected == clean)
 			return (1);
 	}
 	return (0);
