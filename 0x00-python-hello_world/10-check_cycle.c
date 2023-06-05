@@ -7,10 +7,10 @@
 */
 int check_cycle(listint_t *list)
 {
-	listint_t *infected = list;
 	listint_t *clean = list;
+	listint_t *infected = list;
 
-	if (!list)
+	if (list == 0)
 		return (0);
 
 	while (clean && infected && clean->next)
