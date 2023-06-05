@@ -1,4 +1,4 @@
-#include "list.h"
+#include "lists.h"
 /**
  * check_cycle - a function that checks for the cycle in the linked list
  *
@@ -7,17 +7,17 @@
 */
 int check_cycle(listint_t *list)
 {
-	listint_t *slow = list;
-	listint_t *fast = list;
+	listint_t *infected = list;
+	listint_t *clean = list;
 
 	if (!list)
 		return (0);
 
-	while (fast && slow && fast->next)
+	while (clean && infected && clean->next)
 	{
-		slow = slow->next;
-		fast = fast->next->next;
-		if (slow == fast)
+		infected = infected->next;
+		clean = clean->next->next;
+		if (infected == clean)
 			return (1);
 	}
 	return (0);
