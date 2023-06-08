@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 from sys import argv
 if __name__ == "__main__":
-    length = len(argv)
-    count = 0
-    if length == 1:
-        print("{}".format(count))
+    count = len(argv)
+    add = 0
+    if count == 1:
+        print("{}".format(add))
     else:
-        for i in range(1, length):
-            count += int(argv.__getitem__(i))
-        print("{}".format(count))
+        for x in range(1, count):
+            add += int(argv.__getitem__(x))
+        print("{}".format(add))
