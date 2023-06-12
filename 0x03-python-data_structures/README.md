@@ -7,3 +7,4 @@ This is a read me file that describes the scripts written in the data structure 
 4- 4 Replace in a copy
 5- 5 Write a function that removes all characters c and C from a string.
 6- 6 Lists of lists = Matrix
+7- 7 Tuples addition
