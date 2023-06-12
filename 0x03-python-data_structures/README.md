@@ -8,3 +8,8 @@ This is a read me file that describes the scripts written in the data structure 
 5- 5 Write a function that removes all characters c and C from a string.
 6- 6 Lists of lists = Matrix
 7- 7 Tuples addition
+8- 8 More returns!
+9- 9 Find the max
+10- 10 Only by 2
+11- 11 Delete at
+12- 12 Switch
