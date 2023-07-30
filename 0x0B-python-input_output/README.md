@@ -1,0 +1,2 @@
+---this is a read me file for the Directory input output python task---
+--in the read me file we will describe the scripts in the directory--
