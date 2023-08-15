@@ -47,7 +47,7 @@ performance_schema
 sys                      
 $
 ```
-# Connecting :light_bulb:
+# Connecting :candle:
 ```bash
 $ sudo mysql
 Welcome to the MySQL monitor.  Commands end with ; or \g.
