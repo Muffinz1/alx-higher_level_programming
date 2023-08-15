@@ -68,4 +68,21 @@ Bye
 $
 Use 
 ```
-
+## Tasks :note:
+* list_databases.sql
+* top_score.sql
+* best_score.sql
+* no_cheating.sql
+* change_class.sql
+* average.sql
+* groups.sql
+* no_link.sql
+* create_database_if_missing.sql
+* remove_database.sql
+* list_tables.sql
+* first_table.sql
+* full_table.sql
+* list_values.sql
+* insert_value.sql
+* count_89.sql
+* full_creation.sql
