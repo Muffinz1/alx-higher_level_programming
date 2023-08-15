@@ -68,7 +68,7 @@ Bye
 $
 Use 
 ```
-## Tasks :U+1F4C3:
+## Tasks :memo:
 * list_databases.sql
 * top_score.sql
 * best_score.sql
