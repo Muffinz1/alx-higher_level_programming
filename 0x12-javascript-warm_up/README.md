@@ -33,7 +33,7 @@
 
 <p align="center">
   <img
-   src="https://www.alxafrica.com/wp-content/uploads/2022/01/header-logo.png"
+   src="https://miro.medium.com/v2/resize:fit:554/0*ttAmlVD_EytrMcZY"
    alt="ALX Africa Logo"
   >
 </p>
