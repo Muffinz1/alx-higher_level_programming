@@ -4,7 +4,7 @@ const arg = process.argv[2];
 const test = parseFloat(arg);
 
 if (Number.isInteger(test)) {
-  console.log(arg);
+  console.log('My number:',arg);
 } else {
   console.log('Not a number');
 }
