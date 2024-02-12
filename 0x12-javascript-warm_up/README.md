@@ -33,7 +33,7 @@
 
 <p align="center">
   <img
-   src="https://miro.medium.com/v2/resize:fit:554/0*ttAmlVD_EytrMcZY"
+   src=""https://scontent.fcai19-8.fna.fbcdn.net/v/t39.30808-6/423311869_374460708667688_6493971899333060076_n.jpg?stp=dst-jpg_p552x414&_nc_cat=109&ccb=1-7&_nc_sid=783fdb&_nc_ohc=5vYMAF5cfT0AX_VUb5X&_nc_ht=scontent.fcai19-8.fna&oh=00_AfCdjRA9fm7ektCh0G8Z8fB9Mvkyws5_d1IFfJBgHI_KpA&oe=65D03481
    alt="ALX Africa Logo"
   >
 </p>
