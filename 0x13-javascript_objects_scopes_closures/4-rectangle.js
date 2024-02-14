@@ -9,29 +9,23 @@ class Rectangle {
   }
 
   print () {
-    let h = this.height;
-    while (h > 0) {
+    let count = this.height;
+    while (count > 0) {
       console.log('X'.repeat(this.width));
-      h = h - 1;
+      count = count - 1;
     }
   }
 
   double () {
-    let h = this.height * 2;
-    const w = this.width * 2;
-    while (h > 0) {
-      console.log('X'.repeat(w));
-      h = h - 1;
-    }
+    this.height = this.height * 2;
+    this.width = this.width * 2;
   }
 
   rotate () {
-    let h = this.width;
-    const w = this.height;
-    while (h > 0) {
-      console.log('X'.repeat(w));
-      h = h - 1;
-    }
+    const Oh = this.height;
+    this.height = this.width;
+    this.width = Oh;
   }
 }
+
 module.exports = Rectangle;
