@@ -15,7 +15,7 @@
 
 <p align="center">
   <img
-   src="https://cdn.pixabay.com/photo/2017/09/25/11/55/cyberspace-2784907_1280.jpg"
+   src="https://cdn.pixabay.com/photo/2020/02/03/00/12/fiber-4814456_1280.jpg"
    alt="network server"
   >
 </p>
