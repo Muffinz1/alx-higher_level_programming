@@ -17,7 +17,7 @@ def main():
 
     with urllib.request.urlopen(link) as data:
         readable_data = data.read()
-        print("Body response: ")
+        print("Body response:")
         print("\t- type: {}".format(type(readable_data)))
         print("\t- content: {}".format(readable_data))
         print("\t- utf8 content: {}".format(readable_data.decode('utf8')))
