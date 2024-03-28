@@ -13,7 +13,7 @@ request(starInput, function (_error, _respond, obj) {
       const chara = chars[y];
       const charaId = chara.split('/')[5];
       if (charaId === '18') {
-        count = count + 1;
+        count += 1;
       }
     }
   }
